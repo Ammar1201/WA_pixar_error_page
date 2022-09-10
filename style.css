@@ -1,0 +1,146 @@
+@font-face {
+  font-family: brandon-reg;
+  src: url(./fonts/Brandon_reg.otf);
+}
+@font-face {
+  font-family: brandon-bld;
+  src: url(./fonts/Brandon_bld.otf);
+}
+@font-face {
+  font-family: brandon-light;
+  src: url(./fonts/brandon_light.woff);
+}
+@font-face {
+  font-family: futura-pt;
+  src: url(./fonts/FuturaPTLightOblique.otf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clr{
+  clear: both;
+}
+
+header {
+  padding: 38px 118px;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-logo img {
+  max-width: 129px;
+  width: 100%;
+}
+
+.header-links {
+  text-align: right;
+  float: right;
+}
+
+.header-links a {
+  font-family: brandon-reg;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(10, 10, 10);
+  text-decoration: none;
+  padding-top: 9.270px;
+  padding-bottom: 9.270px;
+  margin-right: 13.950px;
+  margin-left: 13.950px;
+}
+
+.box {
+  padding: 80px 142px;
+}
+
+aside img{
+  width: 28.54257813%;
+  height: 68.4680555556%;
+  float: left;
+}
+
+main {
+  float: right;
+  text-align: center;
+  width: 50%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 500px;
+}
+
+.aww {
+  font-family: brandon-bld;
+  font-weight: 900;
+  font-size: 51px;
+  letter-spacing: 0.26em;
+  line-height: 1em;
+}
+
+.aww h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.error-msg {
+  font-family: futura-pt;
+  color: rgba(29, 29, 29, 0.7);
+  font-weight: bold;
+}
+
+.error-msg p {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.7em;
+}
+
+footer {
+  text-align: center;
+}
+
+.footer-icons {
+  margin-bottom: 20px;
+}
+
+.footer-icons li {
+  display: inline;
+  list-style-type: none;
+}
+
+.footer-icons img {
+  width: 44px;
+  height: 44px;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgba(29,29,29,.7);
+  padding-top: 9.270px;
+  padding-bottom: 9.270px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.footer-copyright {
+  color: #1d1d1d;
+  font-family: brandon-light;
+  font-size: 14px;
+  letter-spacing: 0.29em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.9em;
+}
